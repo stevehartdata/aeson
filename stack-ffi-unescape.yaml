@@ -3,7 +3,9 @@ packages:
 - '.'
 flags:
   aeson:
-    fast: true
     cffi: true
+configure-options:
+  aeson:
+  - --disable-optimization
 extra-deps:
 - Diff-0.4.0

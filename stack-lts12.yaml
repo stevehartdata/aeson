@@ -4,8 +4,10 @@ packages:
 - attoparsec-iso8601
 flags:
   aeson:
-    fast: true
     cffi: true
+configure-options:
+  aeson:
+  - --disable-optimization
 extra-deps:
 - base-orphans-0.8.1
 - hashable-time-0.2.0.1
