@@ -32,6 +32,7 @@ module Data.Aeson.Parser
     -- * Lazy parsers
     -- $lazy
       json
+    , jsonEOF
     , value
     , jstring
     , scientific
